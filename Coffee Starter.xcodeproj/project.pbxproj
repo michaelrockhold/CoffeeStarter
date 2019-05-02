@@ -12,6 +12,8 @@
 		4CA25C38227A710B0076CBE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA25C36227A710B0076CBE7 /* Main.storyboard */; };
 		4CA25C3A227A710F0076CBE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA25C39227A710F0076CBE7 /* Assets.xcassets */; };
 		4CA25C3D227A710F0076CBE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA25C3B227A710F0076CBE7 /* LaunchScreen.storyboard */; };
+		4CA25C45227A73A40076CBE7 /* coffeepot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA25C44227A73A40076CBE7 /* coffeepot.png */; };
+		4CA25C47227A75520076CBE7 /* CoffeeStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA25C46227A75520076CBE7 /* CoffeeStarter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4CA25C39227A710F0076CBE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CA25C3C227A710F0076CBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CA25C3E227A710F0076CBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA25C44227A73A40076CBE7 /* coffeepot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffeepot.png; sourceTree = "<group>"; };
+		4CA25C46227A75520076CBE7 /* CoffeeStarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeStarter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				4CA25C32227A710B0076CBE7 /* AppDelegate.swift */,
 				4CA25C34227A710B0076CBE7 /* ViewController.swift */,
 				4CA25C36227A710B0076CBE7 /* Main.storyboard */,
+				4CA25C44227A73A40076CBE7 /* coffeepot.png */,
 				4CA25C39227A710F0076CBE7 /* Assets.xcassets */,
 				4CA25C3B227A710F0076CBE7 /* LaunchScreen.storyboard */,
 				4CA25C3E227A710F0076CBE7 /* Info.plist */,
+				4CA25C46227A75520076CBE7 /* CoffeeStarter.swift */,
 			);
 			path = "Coffee Starter";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				4CA25C3D227A710F0076CBE7 /* LaunchScreen.storyboard in Resources */,
 				4CA25C3A227A710F0076CBE7 /* Assets.xcassets in Resources */,
 				4CA25C38227A710B0076CBE7 /* Main.storyboard in Resources */,
+				4CA25C45227A73A40076CBE7 /* coffeepot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				4CA25C35227A710B0076CBE7 /* ViewController.swift in Sources */,
 				4CA25C33227A710B0076CBE7 /* AppDelegate.swift in Sources */,
+				4CA25C47227A75520076CBE7 /* CoffeeStarter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

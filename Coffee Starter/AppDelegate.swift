@@ -9,10 +9,9 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CoffeeStarter {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -35,12 +34,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        if let mainViewController = self.window?.rootViewController as? ViewController {
+            mainViewController.coffeeStarter = self
+        }
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func start() {
+        
+        let session = URLSession(configuration: URLSessionConfiguration.default)
+        let request = URLRequest(url: URL(string: "https://agent.electricimp.com/wT_6dK8pxGX9?lights=1")!)
+        let task = session.dataTask(with: request, completionHandler: {(data, response, error) -> Void in
+            if let data = data {
+                
+            }
+        })
+        task.resume()
+    }
 }
-
